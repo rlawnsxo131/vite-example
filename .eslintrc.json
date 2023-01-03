@@ -13,7 +13,7 @@
   },
   "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
   "parser": "@typescript-eslint/parser",
-  "plugins": ["@typescript-eslint", "simple-import-sort"],
+  "plugins": ["@typescript-eslint", "react-hooks", "simple-import-sort"],
   "rules": {
     "prefer-const": "error",
     "@typescript-eslint/no-unused-vars": "off",
@@ -23,6 +23,8 @@
     "no-control-regex": "warn",
     "simple-import-sort/imports": "error",
     "simple-import-sort/exports": "error",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
     "@typescript-eslint/consistent-type-imports": [
       "error",
       {

@@ -36,6 +36,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-react", "virtual:515e0c6c126217a6e8def9f520c5648ffe6c52618182ece13ff47d010488fd65f4652def028f50a3f6db9ab7cf456d9d98217158771e2d5fcd0b00dade7c0e29#npm:3.0.0"],\
             ["eslint", "npm:8.31.0"],\
             ["eslint-config-prettier", "virtual:515e0c6c126217a6e8def9f520c5648ffe6c52618182ece13ff47d010488fd65f4652def028f50a3f6db9ab7cf456d9d98217158771e2d5fcd0b00dade7c0e29#npm:8.5.0"],\
+            ["eslint-plugin-react-hooks", "virtual:515e0c6c126217a6e8def9f520c5648ffe6c52618182ece13ff47d010488fd65f4652def028f50a3f6db9ab7cf456d9d98217158771e2d5fcd0b00dade7c0e29#npm:4.6.0"],\
             ["eslint-plugin-simple-import-sort", "virtual:515e0c6c126217a6e8def9f520c5648ffe6c52618182ece13ff47d010488fd65f4652def028f50a3f6db9ab7cf456d9d98217158771e2d5fcd0b00dade7c0e29#npm:8.0.0"],\
             ["prettier", "npm:2.8.1"],\
             ["react", "npm:18.2.0"],\
@@ -1673,6 +1674,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/__virtual__/eslint-config-prettier-virtual-480ab6fbce/0/cache/eslint-config-prettier-npm-8.5.0-a1dd58b6d8-0d0f5c32e7.zip/node_modules/eslint-config-prettier/",\
           "packageDependencies": [\
             ["eslint-config-prettier", "virtual:515e0c6c126217a6e8def9f520c5648ffe6c52618182ece13ff47d010488fd65f4652def028f50a3f6db9ab7cf456d9d98217158771e2d5fcd0b00dade7c0e29#npm:8.5.0"],\
+            ["@types/eslint", null],\
+            ["eslint", "npm:8.31.0"]\
+          ],\
+          "packagePeers": [\
+            "@types/eslint",\
+            "eslint"\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["eslint-plugin-react-hooks", [\
+        ["npm:4.6.0", {\
+          "packageLocation": "./.yarn/cache/eslint-plugin-react-hooks-npm-4.6.0-b429fac07f-23001801f1.zip/node_modules/eslint-plugin-react-hooks/",\
+          "packageDependencies": [\
+            ["eslint-plugin-react-hooks", "npm:4.6.0"]\
+          ],\
+          "linkType": "SOFT"\
+        }],\
+        ["virtual:515e0c6c126217a6e8def9f520c5648ffe6c52618182ece13ff47d010488fd65f4652def028f50a3f6db9ab7cf456d9d98217158771e2d5fcd0b00dade7c0e29#npm:4.6.0", {\
+          "packageLocation": "./.yarn/__virtual__/eslint-plugin-react-hooks-virtual-f6e7b7cc6a/0/cache/eslint-plugin-react-hooks-npm-4.6.0-b429fac07f-23001801f1.zip/node_modules/eslint-plugin-react-hooks/",\
+          "packageDependencies": [\
+            ["eslint-plugin-react-hooks", "virtual:515e0c6c126217a6e8def9f520c5648ffe6c52618182ece13ff47d010488fd65f4652def028f50a3f6db9ab7cf456d9d98217158771e2d5fcd0b00dade7c0e29#npm:4.6.0"],\
             ["@types/eslint", null],\
             ["eslint", "npm:8.31.0"]\
           ],\
@@ -3556,6 +3579,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@vitejs/plugin-react", "virtual:515e0c6c126217a6e8def9f520c5648ffe6c52618182ece13ff47d010488fd65f4652def028f50a3f6db9ab7cf456d9d98217158771e2d5fcd0b00dade7c0e29#npm:3.0.0"],\
             ["eslint", "npm:8.31.0"],\
             ["eslint-config-prettier", "virtual:515e0c6c126217a6e8def9f520c5648ffe6c52618182ece13ff47d010488fd65f4652def028f50a3f6db9ab7cf456d9d98217158771e2d5fcd0b00dade7c0e29#npm:8.5.0"],\
+            ["eslint-plugin-react-hooks", "virtual:515e0c6c126217a6e8def9f520c5648ffe6c52618182ece13ff47d010488fd65f4652def028f50a3f6db9ab7cf456d9d98217158771e2d5fcd0b00dade7c0e29#npm:4.6.0"],\
             ["eslint-plugin-simple-import-sort", "virtual:515e0c6c126217a6e8def9f520c5648ffe6c52618182ece13ff47d010488fd65f4652def028f50a3f6db9ab7cf456d9d98217158771e2d5fcd0b00dade7c0e29#npm:8.0.0"],\
             ["prettier", "npm:2.8.1"],\
             ["react", "npm:18.2.0"],\
