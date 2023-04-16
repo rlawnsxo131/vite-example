@@ -3,7 +3,7 @@
   "packageManager": "yarn@3.3.0",
   "scripts": {
     "sdk": "yarn dlx @yarnpkg/sdks vscode",
-    "dev": "vite --host 3000",
+    "dev": "vite --port 8000",
     "build": "vite build",
     "preview": "vite preview"
   },
